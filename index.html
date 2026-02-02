@@ -97,6 +97,15 @@
       z-index:1;
       pointer-events:none;
     }
+    .us-photo{
+  width:100%;
+  max-height:320px;
+  object-fit:cover;
+  border-radius:14px;
+  margin-bottom:14px;
+  border:1px solid rgba(255,122,199,.35);
+  box-shadow:0 0 18px rgba(255,122,199,.25);
+}
   </style>
 </head>
 <body>
@@ -106,7 +115,7 @@
     <h1>🔒 Secure Valentine Portal</h1>
 
     <div class="muted">
-      Hey my baby, I made you this as I wanted to make you smile.
+      Hey my baby, I coded you this site as I wanted to make you smile.
       Especially at this time. <span class="pink">No pressure</span> — open whenever you feel like 💗
     </div>
 
@@ -119,6 +128,7 @@
     </div>
 
     <div id="valentine" class="val hidden">
+      <img src="us.jpg" alt="Us 💗" class="us-photo">
       <div class="muted">ACCESS GRANTED ✅</div>
       <div class="big">Will you be my Valentine Miss JNH?</div>
       <div class="muted">I promise it'll be worth your yes. 😌💘</div>
@@ -150,7 +160,7 @@
   let attempts = 0;
 
   const pettyErrors = [
-    "ACCESS DENIED ❌ — please stop being gorgeous and try again.",
+    "ACCESS DENIED ❌ — please stop being fine and try again.",
     "ACCESS DENIED ❌ — JNH choreo energy not verified. (do a lil two-step?)",
     "ACCESS DENIED ❌ — slow whine not detected. suspicious.",
     "ACCESS DENIED ❌ — incorrect. I blame the Wi-Fi… and your face."
@@ -161,8 +171,8 @@
       "Initializing secure connection…",
       "Security level: GIRLFRIEND 🔐💘",
       "",
-      "Scanning for JNH Choreo Energy… ✅",
-      "Slow whine detected… ✅",
+      "Scanning for Care Bear Energy… 🧸",
+      "Waist Line Detected… 🇰🇳",
       "Warning: full teet smile incoming 😁",
       "",
       "Enter access code to proceed:"
